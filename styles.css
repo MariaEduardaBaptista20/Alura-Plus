@@ -1,0 +1,185 @@
+
+
+body{
+
+    background-color: black;
+    color: #FFFFFF;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.principal{
+
+    background-image: url("imagens/Background.png");
+   background-repeat: no-repeat;
+   background-size: contain;
+   align-items: center;
+   text-align: center;
+    
+}
+
+.container{
+
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    font-family: "inter";
+     
+} 
+
+.titulo{
+    font-size: 28px;
+    font-weight: 700;
+    
+}
+
+.botao{
+    color: #FFFFFF;
+    background-color: #167BF7;
+    border-radius: 4px;
+    padding: 1em;
+    display: block;
+    margin-bottom: 15px;
+    text-decoration: none;
+   
+
+}
+
+.botao__dois{
+    background-color: transparent;
+    border: 1px solid;
+}
+
+.aviso{
+    color: #c0c0c0;
+    font-size: 13px;
+}
+
+.container__imagem{
+    margin: 1em 0 2em 0;
+}
+
+.caixa{
+    margin: 0 6em;
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 6em;
+    
+}
+
+.titulo__dois{
+    font-size: 48px;
+    font-family: "inter";
+    height: 58px;
+    
+}
+
+.descricao{
+    font-size: 16px;
+    color: #c0c0c0;
+    
+}
+
+.plataformas{
+    width: 80%;
+}
+
+.terciario{
+
+    align-items: center;
+    margin: 0 6em;
+
+}
+
+.descricao__dois{
+    margin: 0 2em;
+}
+
+.botao__tres{
+    display: inline-block;
+    margin: 1em 2em;
+}
+
+.telas{
+    margin: 0 0 0 4em;
+}
+
+.quartenario{
+    align-items: center;
+    
+}
+
+.note{
+    margin: 0 0 0 8em;
+}
+
+.caica__tres{
+    margin: 0 11em 0 0;
+    
+}
+
+.aparelhos{
+    text-align: center;
+    font-family: "inter";
+}
+
+.lista{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin: 5em 0;
+}
+
+.titulo__final{
+
+    font-size: 48px;
+
+}
+
+.item{
+
+    font-size: 32px;
+    
+}
+
+.rodape{
+    text-align: center;
+}
+
+.lista__link{
+    
+    
+    display: flex;
+    list-style-type: none;
+   justify-content: center;
+   margin-top: 2em;
+}
+
+.item__dois a {
+    text-decoration: none;
+    margin: 0 16px;
+    color: #FFFFFF;
+    font-size: 16px;
+    
+}
+
+.texto{
+    color: #c0c0c0;
+    font-size: 14px;
+    margin: 2em 0;
+    
+}
+
+.lista__link a:hover{
+    color: #167BF7;
+    text-decoration: underline;
+}
+
+
